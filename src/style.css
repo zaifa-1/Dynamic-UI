@@ -1,0 +1,39 @@
+*{
+    display: block;
+    margin: 0;
+}
+
+html{
+    color-scheme: dark light;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 2rem;
+
+    background-color: rgb(0, 66, 88);
+    
+    font-size: 1.3rem;
+}
+
+.menu{
+    cursor: pointer;
+}
+
+.one{
+    position: relative
+}
+
+.list{
+    position: absolute;
+    display: none;
+}
+
+.one:hover .list{
+    display: block;
+    
+}
+
